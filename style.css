@@ -1,0 +1,155 @@
+    * { margin: 0; 
+        padding: 0; 
+        box-sizing: border-box; 
+    }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to bottom, #FFE4EC, #FFFFFF);
+        color: #333333;
+        line-height: 1.6;
+        min-height: 100vh;
+    }
+    nav {
+        background-color: #FFD6E7;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    nav ul {
+        list-style: none;
+    }
+    nav  a {
+        text-decoration: none;
+        color:#333333;
+        font-weight: bold; 
+        font-size: 20px;
+        transition: 1s;
+    }
+    nav li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+    nav a:hover {
+       color: #FF4F8B; 
+       text-decoration: underline;
+    }
+    header {
+        text-align: center;
+        padding: 50px 20px;
+    }
+    h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+        font-weight: bold;
+        color: #FF4F8B;
+    }
+    #subtitulo {
+        font-size: 20px;
+        color: #555555;
+        margin-bottom: 30px;
+        font-style: italic;
+    }
+#gojo-marin {
+    width: 550px;
+    display: block;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0px 6px 15px black;
+    border: 3px solid rgba(255, 255, 255, 0.908);
+}
+section {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 20px auto;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 30px;
+    width: 90%;
+    box-shadow: 0px 3px 5px rgba(0, 0, 2, 0.769);
+}
+h2 {
+    font-size: 20px;
+    color: #FF4F8B;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+ul {
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+li {
+    margin-bottom: 8px;
+}
+#personajes div {
+    border: 2px solid #FFD6E7; 
+    padding: 20px; 
+    margin-bottom: 25px; 
+    border-radius: 15px; 
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.08);
+}
+#personajes h3 { 
+    color: #FF4F8B; 
+    margin-bottom: 10px; 
+    font-size: 20px; 
+} #personajes h4 { 
+    color: #555555; 
+    margin-bottom: 10px; 
+}
+#galeria {
+    text-align: center;
+}
+#galeria figure { 
+    display: inline-block; 
+    width: 300px; margin: 20px; 
+    vertical-align: top; 
+} 
+#galeria img { 
+    width: 100%; 
+    border-radius: 15px; 
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.15); 
+    transition: transform 1s; 
+}
+#galeria img:hover { 
+    transform: scale(1.10); 
+} figcaption { 
+    margin-top: 10px; 
+    color: #FF4F8B; 
+    font-weight: bold; 
+}
+#links ul {
+    list-style: none;
+    text-align: center;
+}
+#links li {
+    margin: 15px 0;
+}
+#links a {
+    text-decoration: none;
+    color:#0d090a;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s;
+}
+#links a:hover {
+    color: #FF4F8B; 
+    text-decoration: underline;
+}
+footer{
+    background-color: #FF4F8B; 
+    color: white; 
+    text-align: center; 
+    padding: 25px; 
+    margin-top: 40px;
+}
+footer h2 { 
+    font-size: 15px;
+    color: white;
+ }
+ html {
+    scroll-behavior: smooth;
+ }
